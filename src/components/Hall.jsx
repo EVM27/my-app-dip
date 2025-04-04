@@ -61,16 +61,17 @@ const Hall = () => {
                     zIndex: 1
                   }}
                 ></div>
-                <div className="seats" style={{ zIndex: 2, width: '284px' }}>
-                  {[...Array(70)].map((_, index) => {
-                    const seatNumber = index + 1;
-                    const isSelected = selectedSeats.includes(seatNumber);
-                    return (
-                      <div
-                        key={index}
-                        className={`seat ${isSelected ? "selected" : ""}`}
-                        onClick={() => toggleSeatSelection(seatNumber)}
-                      ></div>
+               
+                                <div className="seats" style={{ zIndex: 2, width: '284px' }}>
+                  {[...Array(120)].map((_, index) => {
+                  const seatNumber = index + 1;
+                  const isSelected = selectedSeats.includes(seatNumber);
+                  return (
+                  <div
+                  key={index}
+                  className={`seat ${isSelected ? "selected" : ""}`}
+                  onClick={() => toggleSeatSelection(seatNumber)}
+                  ></div>
                     );
                   })}
                 </div>
