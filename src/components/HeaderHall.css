@@ -1,0 +1,39 @@
+:root {
+    --color-primary: rgba(22, 166, 175, 1);
+    --color-secondary: rgba(241, 235, 230, 0.95);
+    --color-dark: rgba(23, 29, 36, 1);
+    --color-border: rgba(82, 82, 82, 1);
+    --font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+
+.header_hall {
+    padding: 1% 0;
+    width: 100%;
+    max-width: 990px;
+    margin: auto;
+  }
+  
+  .header_text {
+    width: 962px;
+    height: auto;
+    padding-left: 2%;
+  }
+  
+  .title_text {
+    font-weight: 900;
+    font-size: 2.5rem; 
+    line-height: 1.2; 
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: white;
+    margin: 0px;
+  }
+  
+  .span_text {
+    font-weight: 100;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    text-transform: uppercase;
+    
+  }
+  
